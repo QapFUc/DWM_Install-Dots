@@ -7,6 +7,9 @@ sudo pacman -Syu
 sudo pacman -S reflector rsync curl
 sudo reflector --verbose --country 'Germany' -l 25 --sort rate --save /etc/pacman.d/mirrorlist
 sudo pacman -Syyuu
+sudo pacman -S dbus-broker
+sydo systemctl disable dbus.service
+sudo systemctl enable dbus-broker-service
 sudo pacman -S atril
 sudo pacman -S cups
 sudo systemctl enable cups.service
