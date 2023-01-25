@@ -29,7 +29,7 @@ sudo pacman -S nvidia-dkms
 sudo pacman -S texlive-most textlive-lang
 sudo pacman -S pipewire pipewire-pulse pipewire-jack 
 sudo pacman -S wine wine-mono wine-gecko
-sudo pacman -S rclone neofetch scrcpy btop neovim ranger fish
+sudo pacman -S rclone neofetch scrcpy btop neovim ranger fish picom
 chsh -s /usr/bin/fish
 sudo chsh -s /usr/bin/fish
 sudo pacman -S qbittorrent bitwarden firefox
