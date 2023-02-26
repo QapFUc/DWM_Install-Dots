@@ -26,7 +26,7 @@ mount /dev/sda1 /mnt/boot
 mount -o subvol=sv_home,compress-lzo,ssd,autodefrag /dev/mapper/cryptdisk /mnt/home
 
 Создаем базовую систему (xorg firefox ставить не обязательно можно использовать аналоги)
-pacstrap /mnt base base-devel linux linux-firmware dhcpcd networkmanager mesa-demos btfs-progs sudo p7zip git vim xorg firefox
+pacstrap /mnt base base-devel linux linux-firmware dhcpcd networkmanager mesa-demos btfs-progs sudo p7zip git vim xorg firefox wget
 genfstab -U /mnt >> /mnt/etc/fstab
 
 arch-chroot /mnt
