@@ -10,7 +10,7 @@ static const unsigned int gappov    = 4;       /* vert outer gap between windows
 static const int smartgaps          = 1;        /* 1 means no outer gap when there is only one window */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "jetbrains-mono:size=11" };
+static const char *fonts[]          = { "ttf-jetbrains-mono:size=11" };
 static const char backgroundcolor[] = "#1F1F1F";
 static const char fontcolor[]       = "#F1F1F1";
 static const char maincolor[]       = "#0066ff";
